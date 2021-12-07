@@ -90,9 +90,7 @@ module.exports = {
                             options: {
                                 ident: 'postcss',
                                 plugins: () => [
-                                    require('autoprefixer')({
-                                        browsers: ['ie >= 8', 'last 4 version']
-                                    }),
+                                    require('autoprefixer')(),
                                     require('cssnano')()
                                 ]
                             }
