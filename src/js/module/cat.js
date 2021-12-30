@@ -1,1 +1,5 @@
-console.log('yo');
+const handleCat = () => {
+    console.log('yo');
+};
+
+export default handleCat;

@@ -1,1 +1,5 @@
-import './module/cat';
+import handleCat from './module/cat';
+
+window.addEventListener('DOMContentLoaded', () => {
+    handleCat();
+});
